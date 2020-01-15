@@ -1,14 +1,14 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2316242916" file="C:\The Ohio State University\Propellant Tank Research - Documents\Phase 2\Testing\MATLAB\PTRMeasure\Analog Data Recorder.prj" location="C:\The Ohio State University\Propellant Tank Research - Documents\Phase 2\Testing\MATLAB\PTRMeasure" name="Analog Data Recorder" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2851372950" file="C:\The Ohio State University\Propellant Tank Research - Documents\Phase 2\Testing\MATLAB\PTRMeasure\Analog Data Recorder.prj" location="C:\The Ohio State University\Propellant Tank Research - Documents\Phase 2\Testing\MATLAB\PTRMeasure" name="Analog Data Recorder" target="target.mlapps" target-name="Package App">
     <param.appname>Analog Data Recorder</param.appname>
     <param.authnamewatermark>Noah Gula</param.authnamewatermark>
     <param.email>gula.8@osu.edu</param.email>
-    <param.company>Propellant Tank Research Team</param.company>
+    <param.company>The Ohio State University</param.company>
     <param.icon />
     <param.icons />
-    <param.summary>Records analog data from National Instruments devices</param.summary>
-    <param.description>More info: &lt;a href=""&gt;https://github.com/gulanr/adr&lt;/a&gt;</param.description>
-    <param.screenshot>C:\Users\noahr\AppData\Local\Temp\tpb1f525d3_9b4f_402d_a171_18b63fc70f61.png</param.screenshot>
+    <param.summary>Records analog data from National Instruments data</param.summary>
+    <param.description>https://github.com/gulanr/adr</param.description>
+    <param.screenshot>C:\Users\noahr\AppData\Local\Temp\tp648a34c1_56a8_4c0e_b091_c3fa9b927030.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -24,7 +24,7 @@
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>2cb145f9-0702-4bb5-bb3b-49d85474b8ec</param.guid>
+    <param.guid>ee6e6ff1-17f9-4b94-9e02-8e4a95f117b5</param.guid>
     <unset>
       <param.icon />
       <param.icons />
@@ -35,10 +35,7 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\ADR.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
-      <file>${PROJECT_ROOT}\close.png</file>
-      <file>${PROJECT_ROOT}\tick.png</file>
-    </fileset.depfun>
+    <fileset.depfun />
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
